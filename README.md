@@ -5,11 +5,15 @@ The main idea of the third layer is
 dynamic analysis of the program behavior during runtime.  
 
 
-<!-- ## System operations scanning -->
+## System and Memory scanning
+<img src="system.svg" width=300><br><br>
+Module responsible for the system and memory fuzzing use American Fuzzy Loop (AFL++) to find undefinied / undocumented behavior in code flow and unusual values in memory.  
+For example fuzzing can detect undocumented  functions that performs abnormal behavior like file encryption or steal user data. 
+
 
 ## Network scanning
 <img src="mail.svg" width=150><br><br>
-Network module is responsible for the networking Hypervisoring, and it's devided into two parts dedicated native and web applications.  
+Network module is responsible for the dynamic networking hypervisoring, and it's devided into two parts dedicated native and web applications.  
 <br>  
 
 ### Native applications  
@@ -24,6 +28,7 @@ Set of the complex algorithms and Artificial Intelligence trained on the malware
 
 ### Web applications
 In the web application we are focused on the endpoint fuzzing and studying application behavior.  
+
 <br>
 
 ## Cloud integration   
