@@ -1,5 +1,5 @@
 # Meerkat Engine III Layer
-At the last layer Meerkat perform the moste complex 
+At the last layer Meerkat perform the most complex 
 scans and predictions.   
 The main idea of the third layer is 
 dynamic analysis of the program behavior during runtime.  
