@@ -13,7 +13,7 @@ For example, fuzzing can detect undocumented functions that perform abnormal beh
 
 ## Network scanning
 <img src="mail.svg" width=150><br><br>
-The network module is responsible for the dynamic network hypervisors, and it's divided into two parts dedicated native and web applications.  
+The network module is responsible for the dynamic network hypervisoring, and it's divided into two parts dedicated native and web applications.  
 <br>  
 
 ### Native applications  
